@@ -53,4 +53,31 @@ class ToWordsTest < Test::Unit::TestCase
   def test_vrati_dvanact
     assert_equal "dvanact", 12.to_words
   end
+  
+  def test_vrati_trinact
+    assert_equal "trinact", 13.to_words
+  end
+  
+  def test_vrati_ctrnact
+    assert_equal "ctrnact", 14.to_words
+  end
+  
+  def test_vrati_patnact
+    assert_equal "patnact", 15.to_words
+  end
+  
+  def test_vrati_sestnact
+    assert_equal "sestnact", 16.to_words
+  end
+  
+  def test_vrati_sedmnact
+    assert_equal "sedmnact", 17.to_words
+  end
+  
+  def test_vrati_osmnact
+    assert_equal "osmnact", 18.to_words
+  end
+  def test_vrati_devatenact
+    assert_equal "devatenact", 19.to_words
+  end
 end

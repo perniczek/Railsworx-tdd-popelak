@@ -38,7 +38,11 @@ class ToWordsTest < Test::Unit::TestCase
     assert_equal "devet", 9.to_words
   end
   
-  def test_vrati_devitku
+  def test_vrati_deset
     assert_equal "deset", 10.to_words
+  end
+  
+  def test_vrati_nulu
+    assert_equal "nula", 0.to_words
   end
 end

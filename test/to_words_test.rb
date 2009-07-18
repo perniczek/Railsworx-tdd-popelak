@@ -80,4 +80,7 @@ class ToWordsTest < Test::Unit::TestCase
   def test_vrati_devatenact
     assert_equal "devatenact", 19.to_words
   end
+  def test_vrati_dvacet
+    assert_equal "dvacet", 20.to_words
+  end
 end

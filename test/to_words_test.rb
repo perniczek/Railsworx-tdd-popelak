@@ -27,6 +27,6 @@ class ToWordsTest < Test::Unit::TestCase
   end
   
   def test_vrati_sedmicku
-    assert_equal "sedm", 6.to_words
+    assert_equal "sedm", 7.to_words
   end
 end

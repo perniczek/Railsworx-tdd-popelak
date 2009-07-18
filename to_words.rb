@@ -11,7 +11,7 @@ class Fixnum
         vysledek << nepravidelne[self % 10]
       when 20..100
         zbytek = self % 10
-        vysledek << desitky[self / 10]
+        vysledek << (desitky[self / 10] + (cisla[zbytek] unless zbytek == 0).to_s)
       end
       vysledek.join(" ")
     end

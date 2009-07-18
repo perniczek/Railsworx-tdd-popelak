@@ -21,4 +21,8 @@ class ToWordsTest < Test::Unit::TestCase
   def test_vrati_petku
     assert_equal "pet", 5.to_words
   end
+  
+  def test_vrati_sestku
+    assert_equal "sest", 6.to_words
+  end
 end

@@ -405,4 +405,7 @@ class ToWordsTest < Test::Unit::TestCase
     assert_equal "sto", 100.to_words
   end
 
+  def test_vrati_stojedna
+    assert_equal "Convertovane cislo je mimo rozsah", 101.to_words
+  end
 end

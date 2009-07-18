@@ -11,6 +11,8 @@ class Fixnum
       when 20..100
         zbytek = self % 10
         return (desitky[self / 10] + (cisla[zbytek] unless zbytek == 0).to_s)
+      else
+        "Convertovane cislo je mimo rozsah"
       end
     end
 end

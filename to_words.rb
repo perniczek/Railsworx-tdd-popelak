@@ -3,7 +3,7 @@ class Fixnum
       vysledek = Array.new
       cisla = %w(nula jedna dva tri ctyri pet sest sedm osm devet deset)
       nepravidelne = %w(~ jedenact dvanact trinact ctrnact patnact sestnact sedmnact osmnact devatenact)
-      desitky = %w(~ ~ dvacet)
+      desitky = %w(~ ~ dvacet tricet ctyricet padesat sedesat sedmdesat osmdesat davadesat sto)
       case self
       when 0..10
         vysledek << cisla[self]

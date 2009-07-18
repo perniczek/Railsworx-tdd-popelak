@@ -49,4 +49,8 @@ class ToWordsTest < Test::Unit::TestCase
   def test_vrati_jedenact
     assert_equal "jedenact", 11.to_words
   end
+  
+  def test_vrati_dvanact
+    assert_equal "dvanact", 12.to_words
+  end
 end

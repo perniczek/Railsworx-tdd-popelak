@@ -86,4 +86,8 @@ class ToWordsTest < Test::Unit::TestCase
   def test_vrati_dvacetjedna
     assert_equal "dvacetjedna", 21.to_words
   end
+  
+  def test_vrati_dvacetdva
+    assert_equal "dvacetdva", 22.to_words
+  end
 end

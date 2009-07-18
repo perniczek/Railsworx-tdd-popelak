@@ -1,9 +1,9 @@
 class Fixnum
     def to_words
       vysledek = Array.new
-      cisla = %w(~ jedna dva)
+      cisla = %w(~ jedna dva tri)
       case self
-      when 1..2
+      when 1..3
         vysledek << cisla[self]
       end
       vysledek.join(" ")
